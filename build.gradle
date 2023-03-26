@@ -13,7 +13,7 @@ dependencies {
             "org.slf4j:slf4j-simple:2.0.7")
     }
 
-tasks.withType(JavaCompile) {
+tasks.withType(JavaCompile).configureEach {
     options.encoding = 'UTF-8'
 }
 
