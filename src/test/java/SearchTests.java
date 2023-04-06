@@ -12,3 +12,7 @@ public class SearchTests {
         $("[id=search]").shouldHave(text("selenide.org"));
     }
 }
+
+
+
+

@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="SearchTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-03-26T15:34:32" hostname="DESKTOP-LMGGV6L" time="9.825">
+<testsuite name="SearchTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-03-26T16:26:25" hostname="DESKTOP-LMGGV6L" time="7.205">
   <properties/>
-  <testcase name="successfulSearchTest()" classname="SearchTests" time="9.825"/>
+  <testcase name="successfulSearchTest()" classname="SearchTests" time="7.205"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[[Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
-[Test worker] INFO com.codeborne.selenide.impl.FileHelper - Creating folder: C:\IT\Projects\QA guru getting started Java\build\downloads\1679844872763_11168_1
+[Test worker] INFO com.codeborne.selenide.impl.FileHelper - Creating folder: C:\IT\Projects\QA guru getting started Java\build\downloads\1679847985427_2068_1
 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 111.0.5563.64 (resolved driver for Chrome 111)
 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\pcsel\.cache\selenium\chromedriver\win32\111.0.5563.64\chromedriver.exe
 [Test worker] INFO com.codeborne.selenide.webdriver.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
-Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 44405
+Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 27746
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
 [Test worker] INFO com.codeborne.selenide.webdriver.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
 [Test worker] INFO com.codeborne.selenide.webdriver.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
-мар. 26, 2023 6:34:36 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+мар. 26, 2023 7:26:27 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 111, so returning the closest version found: 110
 [Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - BrowserName=chrome Version=111.0.5563.111 Platform=WINDOWS
 [Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide v. 6.12.4
 [Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenium WebDriver v. 4.8.1 build revision: 8ebccac989
-[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Created webdriver in thread 1: ChromeDriver -> ChromeDriver: chrome on WINDOWS (a4ef91255f079e0051925a72aa282847)
-[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig,webDriver=ChromeDriver: chrome on WINDOWS (a4ef91255f079e0051925a72aa282847),proxy=null,downloadsFolder=C:\IT\Projects\QA guru getting started Java\build\downloads\1679844872763_11168_1] in 1 [size=1]
+[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Created webdriver in thread 1: ChromeDriver -> ChromeDriver: chrome on WINDOWS (df3fb576ea00ce88d54d55b25793fec2)
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig,webDriver=ChromeDriver: chrome on WINDOWS (df3fb576ea00ce88d54d55b25793fec2),proxy=null,downloadsFolder=C:\IT\Projects\QA guru getting started Java\build\downloads\1679847985427_2068_1] in 1 [size=1]
 [Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Add shutdown hook in 1 [size=1]
 ]]></system-err>
 </testsuite>
