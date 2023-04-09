@@ -29,7 +29,7 @@ public class BestContributorToSelenide {
                 .closest(".BorderGrid-cell").$$("ul li").first().hover();
 
         //убедиться, что во всплывающем окне есть текст Andrei Solntsev
-        //$$("div.Popover.js-hovercard-content").findBy(text("Andrei Solntsev")).shouldHave(text("Andrei Solntsev"));
+        //$$("div.Popover.js-hovercard-content").findBy(text("Andrei Solntsev")).shouldBe(visible);
         $$("div.Popover-message").findBy(visible).shouldHave(text("Andrei Solntsev"));
 
 
