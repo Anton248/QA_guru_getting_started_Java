@@ -6,14 +6,14 @@ import org.junit.jupiter.api.Test;
 
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Condition.visible;
-import static com.codeborne.selenide.Selectors.byText;
+import static com.codeborne.selenide.Selectors.*;
 import static com.codeborne.selenide.Selenide.*;
 
 public class BestContributorToSelenide {
 
     @Test
     void andreySolntsevShouldBeTheFirstContributor() {
-        Configuration.browserSize = "1920x1080";
+        //Configuration.browserSize = "1920x1080";
         Configuration.holdBrowserOpen = true;
 
         //открыть страничку репозитория Селенида
@@ -23,6 +23,8 @@ public class BestContributorToSelenide {
         //$("a[href='https://github.com/asolntsev']").parent().hover();
         // $("div.Layout-sidebar").$$("h2 a.Link--primary").findBy(text("Contributors"))
         //      .parent().sibling(0).$("img[alt='@asolntsev']").parent().hover();
+//        $("div.Layout-sidebar").$(withTagAndText("a", "Contributors"))
+//                .parent().sibling(0).$("img[alt='@asolntsev']").parent().hover();
 
         //подвести мышку к первому автору из блока Contributors
         $("div.Layout-sidebar").$(byText("Contributors"))
