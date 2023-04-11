@@ -12,6 +12,5 @@ public class DifferenceBetweenTwoExpressions {
         open("https://github.com/features/actions");
         $("div.d-flex a.Link--primary[href='/features/packages']").click(); //works
         $("div.d-flex").$("a.Link--primary[href='/features/packages']").click();  //doesn't work
-
     }
 }
