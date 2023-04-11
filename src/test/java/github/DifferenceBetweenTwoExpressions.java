@@ -10,8 +10,8 @@ public class DifferenceBetweenTwoExpressions {
     void findDivAndH2() {
         Configuration.holdBrowserOpen = true;
         open("https://github.com/features/actions");
-        //$("div.d-flex a.Link--primary[href='/features/packages']").click(); //работает
-        $("div.d-flex").$("a.Link--primary[href='/features/packages']").click();  //не работает
+        $("div.d-flex a.Link--primary[href='/features/packages']").click(); //works
+        $("div.d-flex").$("a.Link--primary[href='/features/packages']").click();  //doesn't work
 
     }
 }
